@@ -9,6 +9,35 @@ This document consolidates the official participant guide PDF and the public hac
 - Participant Guide PDF: [Participant Guide_ AMD Developer Hackathon (ACT II).pdf](Participant%20Guide_%20AMD%20Developer%20Hackathon%20%28ACT%20II%29.pdf)
 - Public hackathon page: [AMD Developer Hackathon: ACT II](https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii)
 
+## Public Announcement Notes
+
+- Participant Guide is live.
+- The guide points participants to the full PDF for exact I/O formats, environment variables, and scoring details.
+- GPU access link: [AMD Developer Cloud notebooks](https://notebooks.amd.com/hackathon)
+- Questions are directed to the event Discord channel.
+
+## Launch Email Notes
+
+- Email headline: the hackathon kicks off today.
+- Email headline prize pool: `$20,000+`.
+- Kick-off stream:
+  - `6:00 PM CET` goes live.
+  - `7:00 PM CET` Discord Q&A session on the LabLab Discord server.
+- The stream covers:
+  - challenge overview
+  - judging criteria
+  - all three tracks
+  - available tools and credits
+- New AMD AI Developer Program members may claim:
+  - `1 Month DeepLearning.AI Pro`
+  - `$100 AMD Developer Cloud Credits`
+  - `$50 Fireworks AI API Credits`
+- Bonus challenge:
+  - Best Use of Gemma 4
+  - `$6k` prize pool
+  - open across all hackathon tracks
+- The email also promotes the Natively AI Challenge and Native.builder.
+
 ## Hackathon Overview
 
 - Event name: AMD Developer Hackathon: ACT II
@@ -68,6 +97,16 @@ The participant guide says Track 1 is evaluated across eight categories:
 7. Logical / deductive reasoning
 8. Code generation
 
+### Allowed Models
+
+The announcement lists these Track 1 models:
+
+- `minimax-m3`
+- `kimi-k2p7-code`
+- `gemma-4-31b-it`
+- `gemma-4-26b-a4b-it`
+- `gemma-4-31b-it-nvfp4`
+
 ### Track 1 Build Guidance
 
 - Build for generality, not for a known benchmark prompt set.
@@ -77,6 +116,33 @@ The participant guide says Track 1 is evaluated across eight categories:
 - Local evaluation is recommended before submitting.
 - Local models and local token use count as zero toward the final score.
 - The final scoring environment is standardized, so the agent must work within those constraints.
+
+## Track 2
+
+### Video Captioning Agent
+
+- Build an agent that captions video clips in four styles:
+  - formal
+  - sarcastic
+  - humorous-tech
+  - humorous-non-tech
+- Submit a Docker image.
+- Any model or API may be used.
+- There are no model restrictions for this track.
+- Scoring is based on caption accuracy plus style match.
+
+## Track 3
+
+### Unicorn Track
+
+- This is the open-innovation track.
+- There is no fixed task.
+- The goal is to build the most innovative, technically impressive project using AMD compute.
+- Submission requires:
+  - GitHub repository
+  - demo video
+  - slide deck
+- Evaluation uses automated pre-screening plus human judges.
 
 ## Track 1 Submission Contract
 
@@ -205,4 +271,3 @@ These apply to all tracks unless otherwise noted:
 - Whether the submitted image should include a fixed entrypoint, shell wrapper, or both.
 - Which specific model IDs are published in `ALLOWED_MODELS` on launch day.
 - Whether the event page has any final-day schedule changes after the date captured here.
-
