@@ -6,7 +6,7 @@ This document consolidates the official participant guide PDF and the public hac
 
 ## Sources
 
-- Participant Guide PDF: [`Participant Guide_ AMD Developer Hackathon (ACT II).pdf`](/Users/sandeepgurram/Documents/Codebase/Hackathon/AMB%20Hackathon/Participant%20Guide_%20AMD%20Developer%20Hackathon%20%28ACT%20II%29.pdf)
+- Participant Guide PDF: [Participant Guide_ AMD Developer Hackathon (ACT II).pdf](Participant%20Guide_%20AMD%20Developer%20Hackathon%20%28ACT%20II%29.pdf)
 - Public hackathon page: [AMD Developer Hackathon: ACT II](https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii)
 
 ## Hackathon Overview
